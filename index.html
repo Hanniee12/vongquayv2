@@ -1,0 +1,2491 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Tạo vòng quay may mắn miễn phí</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="./img/alya.gif" />
+    <link rel="stylesheet" href="https://www.w3.org/1999/xlink" />
+    <meta
+      name="description"
+      content="XSPIN cung cấp vòng quay may mắn hoàn toàn miễn phí giúp các bạn có thể lựa chọn ngẫu nhiên các phần quà một cách công bằng"
+    />
+
+    <meta
+      property="og:image"
+      content="/img/Tao-vong-quay-may-man-mien-phi.jpg"
+    />
+
+    <link rel="stylesheet" href="plugins/vqmm_v1/main.css" type="text/css" />
+    <!--<script type="text/javascript" src="plugins/vqmm_v1/Winwheel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>-->
+
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.google-analytics.com/analytics.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-DXBQNL704P&amp;l=dataLayer&amp;cx=c&amp;gtm=457e53q1za200&amp;tag_exp=102482433~102788824~102803279~102813109~102887800~102926062~102964103~102975948"
+    ></script>
+    <script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202503270101/show_ads_impl_fy2021.js?bust=31091375"></script>
+    <script src="jquery-1.11.3.min.js"></script>
+    <!--<script type="text/javascript" src="jquery-ui.min.js"></script>-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />-->
+
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
+
+    <!--<link href="font-awesome.min.css" rel="stylesheet" />-->
+
+    <link rel="stylesheet" href="assets/flaticon.css" />
+    <!-- bootstrap css file link -->
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <!-- jquery ui css file link -->
+    <link rel="stylesheet" href="assets/jquery-ui.min.css" />
+    <!-- animate css file link -->
+    <link rel="stylesheet" href="assets/animate.css" />
+    <!-- lightcase css file link -->
+    <link rel="stylesheet" href="assets/lightcase.css" />
+    <!-- owl carousel css file link -->
+    <!--<link rel="stylesheet" href="assets/css/owl.carousel.min.css">-->
+
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <link rel="stylesheet" href="assets/responsive.css" />
+
+    <!--<link rel='stylesheet' href='sweet-alert.css'>
+    <script src='sweet-alert.min.js'></script>-->
+
+    <style>
+      .MyButton1 {
+        float: left;
+        color: #fff;
+        background-color: #198754b3;
+        border-color: #198754b3;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 3px;
+        font-size: 14px;
+      }
+
+      .MyTextarea {
+        width: 92%;
+        height: 250px;
+        border-radius: 3px;
+        border-style: none;
+        background: #464646;
+        color: white;
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+
+      .MyButton {
+        background-image: -webkit-linear-gradient(
+          57deg,
+          #f33737 0%,
+          #ff7878 100%,
+          #1b4e76 100%
+        );
+        border-style: none;
+        border-radius: 3px;
+        font-weight: bold;
+        padding: 10px 10px;
+        color: #ebebeb;
+        margin-bottom: 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      .vqLeft {
+      }
+
+      .vRight {
+        border: 1px solid #dadada;
+        background: #e6e6e6;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin-top: 10px;
+      }
+
+      .MyCanvas {
+        /*background-image: url(plugins/vqmm_v1/images/wheel_back2.png);*/
+        background-image: url(img/NutTrungTam.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 90%;
+      }
+      /*desktop*/
+      @media (min-width: 1131px) {
+        .imgContent {
+          width: 70%;
+        }
+        .vqLeft {
+          float: left;
+          width: 50%;
+        }
+
+        .vRight {
+          float: left;
+          width: 45%;
+        }
+
+        .MyCanvas {
+          width: 70%;
+        }
+
+        .AnCaiDat {
+          width: 250px;
+          display: inline-table;
+        }
+        .aTuVan {
+          display: block;
+        }
+        .aTuVan1 {
+          display: none;
+        }
+      }
+      /*ipad pro*/
+      @media (max-width: 1130px) and (min-width: 769px) {
+        .imgContent {
+          width: 70%;
+        }
+        .vqLeft {
+          float: left;
+          width: 50%;
+        }
+
+        .vRight {
+          float: left;
+          width: 45%;
+        }
+
+        .AnCaiDat {
+          display: none;
+        }
+        .aTuVan {
+          display: none;
+        }
+        .aTuVan1 {
+          display: block;
+        }
+      }
+      /*ipad*/
+      @media (max-width: 768px) and (min-width: 767px) {
+        .imgContent {
+          width: 100%;
+        }
+        .imgContent {
+          width: 80%;
+        }
+        .vqLeft {
+          float: left;
+          width: 100%;
+        }
+
+        .vRight {
+          float: left;
+          width: 100%;
+        }
+        .AnCaiDat {
+          display: none;
+        }
+        #back-wheel {
+          scale: 1;
+          width: 400px !important;
+          height: 400px !important;
+        }
+        #wheelOfFortune {
+          width: 360px !important;
+          height: 360px !important;
+        }
+        #spin {
+          font-size: 18px !important;
+        }
+        .aTuVan {
+          display: none;
+        }
+        .aTuVan1 {
+          display: block;
+        }
+      }
+      @media (max-width: 1050px) {
+        .imgContent {
+          width: 100%;
+        }
+        #back-wheel {
+          scale: 0.9;
+        }
+      }
+      @media (max-width: 950px) {
+        #back-wheel {
+          scale: 1;
+          width: 350px !important;
+          height: 350px !important;
+        }
+        #wheelOfFortune {
+          width: 339px !important;
+          height: 339px !important;
+        }
+        #spin {
+          font-size: 15px !important;
+        }
+      }
+      @media (max-width: 479px) {
+        .imgContent {
+          width: 100%;
+        }
+        .AnCaiDat {
+          display: none;
+        }
+        #back-wheel {
+          scale: 1;
+          width: 330px !important;
+          height: 330px !important;
+        }
+        #wheelOfFortune {
+          width: 320px !important;
+          height: 320px !important;
+        }
+        #spin {
+          font-size: 15px !important;
+        }
+        .aTuVan {
+          display: none;
+        }
+        .aTuVan1 {
+          display: block;
+        }
+      }
+      /*phone*/
+      @media (max-width: 766px) and (min-width: 480px) {
+        .imgContent {
+          width: 100%;
+        }
+        .vqLeft {
+          float: left;
+          width: 100%;
+        }
+        .vRight {
+          float: left;
+          width: 94%;
+        }
+        .AnCaiDat {
+          display: none;
+        }
+        #back-wheel {
+          scale: 1;
+          width: 400px !important;
+          height: 400px !important;
+        }
+        #wheelOfFortune {
+          width: 382px !important;
+          height: 382px !important;
+        }
+        #spin {
+          font-size: 18px !important;
+        }
+        .aTuVan {
+          display: none;
+        }
+        .aTuVan1 {
+          display: block;
+        }
+      }
+    </style>
+    <style>
+      @-webkit-keyframes my {
+        0% {
+          color: #5aa800;
+        }
+
+        50% {
+          color: #ea0000;
+        }
+
+        100% {
+          color: #5aa800;
+        }
+      }
+
+      @-moz-keyframes my {
+        0% {
+          color: #5aa800;
+        }
+
+        50% {
+          color: #ea0000;
+        }
+
+        100% {
+          color: #5aa800;
+        }
+      }
+
+      @-o-keyframes my {
+        0% {
+          color: #5aa800;
+        }
+
+        50% {
+          color: #ea0000;
+        }
+
+        100% {
+          color: #5aa800;
+        }
+      }
+
+      @keyframes my {
+        0% {
+          color: #5aa800;
+        }
+
+        50% {
+          color: #ea0000;
+        }
+
+        100% {
+          color: #5aa800;
+        }
+      }
+
+      .nhapnhay {
+        -webkit-animation: my 700ms infinite;
+        -moz-animation: my 700ms infinite;
+        -o-animation: my 700ms infinite;
+        animation: my 700ms infinite;
+      }
+    </style>
+
+    <!--<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>-->
+    <link rel="stylesheet" href="Plugins/Congrats/style.css" />
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        //alert('2342');
+        $("#dvCongCuHayKhac").load("CongCuHayKhac.html");
+
+        var ccPhanQuay = getCookie("PhanQuay");
+        //alert(ccPhanQuay);
+        if (ccPhanQuay != "" && ccPhanQuay != null) {
+          $("#txtPhanQuay").val(ccPhanQuay.replaceAll("~", "\n"));
+          var sTieuDe = "TẠO VÒNG QUAY MAY MẮN MIỄN PHÍ";
+          $("#txtTieuDe").val(sTieuDe);
+          LoadVongQuay();
+        } else {
+          ThietLapVongQuay();
+        }
+      });
+
+      function getCookie(cookie_name) {
+        var results = document.cookie.match(
+          "(^|;) ?" + cookie_name + "=([^;]*)(;|$)"
+        );
+        return results ? decodeURIComponent(results[2]) : null;
+      }
+      function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+        let expires = "expires=" + d.toUTCString();
+        document.cookie =
+          cname + "=" + encodeURIComponent(cvalue) + ";" + expires + ";path=/";
+      }
+      function ThietLapVongQuay() {
+        var sPhanQuay = "";
+        var sTieuDe = "";
+        sPhanQuay += "Bảo Vy\n";
+        sPhanQuay += "Cát Tường\n";
+        sPhanQuay += "Gia Hân\n";
+        sPhanQuay += "Hoài An\n";
+        sPhanQuay += "Linh Chi\n";
+        sPhanQuay += "Ngọc Khuê\n";
+        sPhanQuay += "Thanh Hà\n";
+        sPhanQuay += "Tuyết Nhung\n";
+        sPhanQuay += "Yến Vy\n";
+        sPhanQuay += "Thùy Linh\n";
+        //sPhanQuay += "Diễm My\n";
+        //sPhanQuay += "Thu Thủy\n";
+        sTieuDe = "TẠO VÒNG QUAY MAY MẮN MIỄN PHÍ";
+
+        $("#txtPhanQuay").val(sPhanQuay);
+
+        //var sTieuDe = "VÒNG QUAY MAY MẮN";
+        $("#txtTieuDe").val(sTieuDe);
+
+        LoadVongQuay();
+      }
+    </script>
+
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=UA-74657772-8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-74657772-8");
+    </script>
+
+    <script>
+      var bien = 0;
+      function DoiDiv() {
+        if (bien == 0) {
+          $("#navbarSupportedContent").attr(
+            "class",
+            "collapse navbar-collapse show"
+          );
+          bien = 1;
+        } else {
+          $("#navbarSupportedContent").attr(
+            "class",
+            "collapse navbar-collapse"
+          );
+          bien = 0;
+        }
+      }
+      function ScrollToDiv(id) {
+        //alert("aaa");
+        $(window).scrollTop($("." + id).offset().top - 200);
+      }
+
+      function openTrungThuong(KetQua) {
+        //alert(KetQua);
+
+        document.getElementById("dvTrungThuong").style.display = "block";
+        document.getElementById("dvKetQuaQuay").innerHTML =
+          "<div style='font-size: 23px;color: #4e4e4e;'>Bạn đã quay vào ô</div><div>" +
+          KetQua +
+          "</div>";
+
+        //$('#dvCongrats').trigger('click');
+      }
+      function closeTrungThuong() {
+        document.getElementById("dvTrungThuong").style.display = "none";
+        resetWheel();
+      }
+
+      function AnCaiDat() {
+        $(".vqLeft").css("width", "100%");
+        $("#canvas").css("width", "42%");
+        $(".vRight").css("display", "none");
+      }
+      function HienCaiDat() {
+        $(".vqLeft").css("width", "50%");
+        $("#canvas").css("width", "70%");
+        $(".vRight").css("display", "block");
+      }
+
+      function DatLai() {
+        $("#txtPhanQuay").val("");
+      }
+    </script>
+    <script
+      async=""
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1206708643224072"
+      crossorigin="anonymous"
+      data-checked-head="true"
+    ></script>
+    <script>
+      setTimeout(function () {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      }, 200);
+      //(adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <!--<div class="zalo-chat-widget" data-oaid="1507314870916914776" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="3" data-width="500" data-height="500"></div>
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+    <style>
+        .zalo-chat-widget {
+            bottom: 15px !important;
+            right: 15px !important;
+            width: 100px;
+        }
+    </style>-->
+    <meta
+      http-equiv="origin-trial"
+      content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+    <meta
+      http-equiv="origin-trial"
+      content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"
+    />
+  </head>
+  <body style="background-color: #f4f4fc">
+  
+    <!--<a href="https://zalo.me/1507314870916914776" target="_blank" rel="nofollow" style="position: fixed;bottom: 5px;right: 20px;z-index:9999"><img src="img/Zalo.gif" style="width: 80px; " /></a>-->
+    <a
+      href="https://zalo.me/0399456755"
+      target="_blank"
+      rel="nofollow"
+      style="position: fixed; bottom: 5px; right: 20px; z-index: 9999"
+      ><img src="img/Zalo.gif" style="width: 80px"
+    /></a>
+
+    <!--<div id="dvCongrats" class="congrats">
+        <h1>Congratulations!</h1>
+    </div>-->
+    <header class="header-section">
+      <div class="header-bottom">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <a class="site-logo site-title" href="/"
+              ><img style="width: 100px" src="./img/alya.gif" alt="Tài_11D7"
+            /></a>
+            <button
+              onclick="DoiDiv();"
+              class="navbar-toggler"
+              style="z-index: 9999"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="menu-toggle"></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+      <!-- header-bottom end -->
+
+      <link rel="stylesheet" href="/assets/style2.css" />
+    </header>
+
+    <div style="height: auto !important">
+      <main id="main" style="overflow: hidden; height: auto !important">
+        <!-- ======= Clients Section ======= -->
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services" style="height: auto !important">
+          <div
+            class="container"
+            style="margin-top: 5px; height: auto !important"
+          >
+            <div align="center" style="height: auto !important">
+              <div
+                id="txtLoadTieuDe"
+                style="
+                  text-align: center;
+                  padding: 7px;
+                  font-size: 27px;
+                  font-weight: bold;
+                  color: #000000;
+                  margin-bottom: 15px;
+                "
+              >
+                TẠO VÒNG QUAY MAY MẮN MIỄN PHÍ
+              </div>
+              <div style="overflow: hidden; margin-top: -10px">
+                <div class="vqLeft" style="padding-bottom: 10px">
+                  <div class="the_wheel" align="center" valign="center">
+                    <div id="back-wheel">
+                      <div id="moc"></div>
+                      <div id="wheelOfFortune">
+                        <div id="shadow" style="z-index: 1"></div>
+                        <!-- <div id="chop"></div> -->
+                        <div
+                          id="spin"
+                          style="z-index: 1; background: rgb(0, 153, 255)"
+                          class=""
+                        >
+                          Quay
+                        </div>
+                        <canvas
+                          id="wheel"
+                          width="390"
+                          height="390"
+                          style="transform: rotate(1.98248rad)"
+                        ></canvas>
+                      </div>
+                    </div>
+                    <button id="cl" style="display: none">clear</button>
+
+                    <script src="/js/main2.js"></script>
+
+                    <div style="margin-top: 10px">
+                      <table class="AnCaiDat">
+                        <tbody>
+                          <tr>
+                            <td style="width: 19px">
+                              <input
+                                onclick="AnCaiDat()"
+                                id="rdAnCaiDat"
+                                type="radio"
+                                name="AnCaiDat"
+                                style="
+                                  width: 17px;
+                                  height: 17px;
+                                  display: block;
+                                  vertical-align: middle;
+                                "
+                              />
+                            </td>
+                            <td>Mở rộng</td>
+                            <td style="width: 19px">
+                              <input
+                                onclick="HienCaiDat()"
+                                id="rdHienCaiDat"
+                                type="radio"
+                                name="AnCaiDat"
+                                style="
+                                  width: 17px;
+                                  height: 17px;
+                                  display: block;
+                                  vertical-align: middle;
+                                "
+                                checked="checked"
+                              />
+                            </td>
+                            <td>Thu nhỏ</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    
+                    <!--<div class="aTuVan" style="text-align:center; margin-top:10px">
+                                        <a id="aTuVan1" target="_blank" href="https://xspin.vn/dang-ky-tai-khoan-user?utm=qsvn" class="cmn-btn" style="cursor: pointer;
+                            width: 310px;
+                            border-radius: 4px;
+                            color: #f5f5b4;
+                            background-image: -webkit-linear-gradient( 57deg, #728b54 0%, #83b185 100%, rgb(17 164 26) 100%);
+                            margin: auto;
+                            font-size: 18px;
+                            border: 2px solid #8BC34A;">
+                                            Tư vấn tạo game
+                                        </a>
+                                    </div>-->
+                    <!--<div style="text-align:center">
+                                        <a href="https://vongquaymayman.vn" style="cursor: pointer; width: 275px; border-radius: 4px; color: white; background-image: -webkit-linear-gradient( 57deg, #2fb541 0%, #000000 100%, rgb(17 164 26) 100%); padding: 0px 20px; margin: auto; font-size: 18px; background: #ff9800; margin-top: 10px;" class="cmn-btn">
+                                            Quay số trúng card điện thoại
+                                        </a>
+                                    </div>-->
+                    <!--<div style="text-align:center; margin-top:5px">
+                                        <a href="https://vongquaymayman.vn" target="_blank" style="color: #ff9800; font-size: 23px; text-decoration: underline;">Quay số trúng card điện thoại</a>
+                                    </div>-->
+                  </div>
+                </div>
+                <div class="vRight">
+                  <h3>Cấu hình vòng quay</h3>
+                  <div style="margin-top: 5px">
+                    <input
+                      type="text"
+                      id="txtTieuDe"
+                      style="width: 93%; font-size: 11px; padding: 3px 5px"
+                      placeholder="Nhập tiêu đề"
+                    />
+                  </div>
+                  <div style="margin-top: 5px">
+                    <textarea id="txtPhanQuay" class="MyTextarea"></textarea>
+                  </div>
+                  <div
+                    style="
+                      font-style: italic;
+                      color: #007ee2;
+                      font-size: 14px;
+                      font-weight: bold;
+                      margin-top: -5px;
+                      margin-bottom: 5px;
+                    "
+                  >
+                    Cài đặt sẽ không bị mất đi khi mở lại
+                  </div>
+                  <div style="text-align: center">
+                    <input
+                      onclick="CapNhatVongQuay()"
+                      type="button"
+                      value="Cập nhật vòng quay"
+                      class="MyButton"
+                      style="
+                        background-image: -webkit-linear-gradient(
+                          280deg,
+                          #428045 0%,
+                          #4caf50 100%,
+                          #1b4e76 100%
+                        );
+                      "
+                    />
+                    <input
+                      onclick="DatLai()"
+                      type="button"
+                      value="Đặt lại"
+                      class="MyButton"
+                    />
+                    <!--<p style="font-style: italic; font-size: 14px; color: #1f9a24;">(Cài đặt 1 lần sử dụng được cho những lần sau mà không phải cài lại)</p>-->
+
+                    <!--<div class="aTuVan1">
+                                        <a id="aTuVan2" target="_blank" href="https://xspin.vn/dang-ky-tai-khoan-user?utm=qsvn" class="cmn-btn" style="cursor: pointer; width: 97%; border-radius: 4px; color: #f5f5b4; background-image: -webkit-linear-gradient( 57deg, #728b54 0%, #83b185 100%, rgb(17 164 26) 100%); margin: auto; font-size: 18px; border: 2px solid #8BC34A; border-radius: 10px;">
+                                            Tư vấn tạo game
+                                        </a>
+                                    </div>-->
+
+                   
+              </div>
+
+              <div style="padding: 10px 5%">
+                <div style="text-align: center">
+                  <ins
+                    class="adsbygoogle"
+                    style="display: block; height: 0px"
+                    data-ad-client="ca-pub-1206708643224072"
+                    data-ad-slot="3343717865"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"
+                    data-adsbygoogle-status="done"
+                    data-ad-status="unfilled"
+                    ><div
+                      id="aswift_1_host"
+                      style="
+                        border: none;
+                        height: 0px;
+                        width: 1026px;
+                        margin: 0px;
+                        padding: 0px;
+                        position: relative;
+                        visibility: visible;
+                        background-color: transparent;
+                        display: inline-block;
+                        overflow: hidden;
+                        opacity: 0;
+                      "
+                    >
+                      <iframe
+                        id="aswift_1"
+                        name="aswift_1"
+                        browsingtopics="true"
+                        style="
+                          left: 0px;
+                          position: absolute;
+                          top: 0px;
+                          border: 0px;
+                          width: 1026px;
+                          height: 0px;
+                        "
+                        sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                        width="1026"
+                        height="0"
+                        frameborder="0"
+                        marginwidth="0"
+                        marginheight="0"
+                        vspace="0"
+                        hspace="0"
+                        allowtransparency="true"
+                        scrolling="no"
+                        allow="attribution-reporting; run-ad-auction"
+                        src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1206708643224072&amp;output=html&amp;h=280&amp;slotname=3343717865&amp;adk=2709720339&amp;adf=1157313232&amp;pi=t.ma~as.3343717865&amp;w=1026&amp;abgtt=6&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1725850229&amp;rafmt=1&amp;format=1026x280&amp;url=https%3A%2F%2Fquayso.vn%2Fvongquay.html&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTM0LjAuNjk5OC4xNzgiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxMzQuMC42OTk4LjE3OCJdLFsiTm90OkEtQnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEzNC4wLjY5OTguMTc4Il1dLDBd&amp;dt=1743309318442&amp;bpp=2&amp;bdt=1625&amp;idt=1003&amp;shv=r20250327&amp;mjsv=m202503270101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=3706301107544&amp;frm=20&amp;pv=1&amp;u_tz=420&amp;u_his=12&amp;u_h=768&amp;u_w=1366&amp;u_ah=720&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=163&amp;ady=973&amp;biw=1351&amp;bih=633&amp;scr_x=0&amp;scr_y=0&amp;eid=95344791%2C95355310%2C95356499%2C95356504%2C31091375%2C95355300%2C95356787%2C95356929&amp;oid=2&amp;pvsid=1983930014753879&amp;tmod=2145577020&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C720%2C1366%2C633&amp;vis=1&amp;rsz=%7C%7CoeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;btvi=1&amp;fsb=1&amp;dtd=1013"
+                        data-google-container-id="a!2"
+                        tabindex="0"
+                        title="Advertisement"
+                        aria-label="Advertisement"
+                        data-google-query-id="CM-w3qX9sIwDFYpXDwIdSKgbeg"
+                        data-load-complete="true"
+                      ></iframe></div
+                  ></ins>
+                </div>
+              </div>
+
+              <!--<div style="text-align:left; padding:10px 5%">
+                                <p style="text-align:left">Vòng quay may mắn mang giá trị ứng dụng thực tiễn rất cao trong lĩnh vực marketing và giải trí. Không phải đến khi internet phát triển thì người ta mới ứng dụng, mà trước khi internet chưa phát triển vòng quay may mắn đã được ứng dụng rộng rãi bằng các vòng quay thật từ giấy carton, nhựa hoặc là kim loại. Vòng quay may mắn mang lại sự trực quan, công bằng và cả sự hồi hộp cho người tham dự, nó như một liều thuốc kích thích để giữ chân khách hàng thân thiết.</p>
+                                <div id="dvCongCuHayKhac"></div>
+                                <p style="margin-top: 10px; color: #2196f3; font-size: 20px; "><b>Một số ví dụ ứng dụng trong trong kinh doanh:</b></p>
+                                <p style="padding: 5px 0px;"><h5>1. Quay số tặng voucher khách hàng</h5></p>
+                                <p>Giả sử bạn là chủ một cửa hàng, sau khi khách hàng mua hàng bạn có thể tạo vòng quay để khách hàng của bạn quay số và trúng thưởng voucher giảm giá, đây là cách rất hữu hiệu để giữ chân khách hàng.</p>
+                                <p>Hoặc bạn cũng có thể chạy quảng cáo vòng quay để tặng voucher đến những người chưa hề mua sắm trên hệ thống của bạn, đâu là cách để thu hút khách hàng tiềm năng hiệu quả.</p>
+                                <p style="padding: 5px 0px;"><h5>2. Quay số tặng các phần quà có giá trị</h5></p>
+                                <p>Bạn đang tổ chức một sự kiện và muốn người tham dự có thêm động lực để đến với sự kiện của bạn, bạn có thể sắp xếp một chương tình quay số sử dụng vòng quay may mắn để lôi kéo người tham dự, để giảm bớt chi phí tổ chức vòng quay bạn có thể giới hạn số lượng và tỷ lệ trúng phần quà giá trị thông qua gói chuyên nghiệp của XSPIN.</p>
+                                <p style="padding: 5px 0px;"><h5>3. Vòng quay tri ân khách hàng</h5></p>
+                                <p>Ở một số dịp đặc biệt như cuối năm, chủ doanh nghiệp có thể tổ chức chương trình tri ân khách hàng bằng cách tổ chứ vòng quay may mắn tặng những phần quà giá trị đến cho quý khách hàng đã ủng hộ mình trong suốt những năm qua.</p>
+                                <p style="padding: 5px 0px;"><h5>4. Vòng quay thanh lý hàng tồn</h5></p>
+                                <p>Trường hợp bạn có nhiều hàng tồn kho cần phải thanh lý, một trong những phương pháp thanh lý hàng hiệu quả là tổ chức vòng quay để tặng quà, món quà là những mặt hàng tồn cần thanh lý, như vậy bạn đã có được một chương trình giữ chân khách hàng mà không phải bỏ chi phí trực tiếp.</p>
+
+                                <p style="margin-top: 10px; color: #2196f3; font-size: 20px; "><b>Một số ví dụ ứng dụng vui trong cuộc sống:</b></p>
+                                <p style="padding: 5px 0px;"><h5>1. Tặng quà gì cho bạn gái?</h5></p>
+                                <p>Hoặc đơn giản bạn đang hoang mang không biết tặng quà gì cho người bạn yêu thương, hãy để vòng quay may mắn lựa chọn giúp bạn.</p>
+                                <p style="text-align:center"><img src="img/tang-qua-gi-cho-ban-gai.jpg" /></p>
+                                <p style="text-align:center; font-style:italic">Ảnh minh họa</p>
+                                <p style="padding: 5px 0px;"><h5>2. Sáng nay ăn gì?</h5></p>
+                                <p>Đây là ứng dụng vui nhưng nó làm bạn đỡ nhức đầu hơn rất nhiều. Có phải hằng ngày bạn vẫn luôn suy nghĩ sẽ ăn hôm nay phải không, để khỏi phải suy nghĩ nữa bạn cứ liệt kê các món yêu thích trên vòng quay và để ứng dụng này lựa chọn giúp bạn.</p>
+                                <p style="text-align:center"><img src="img/sang-nay-an-gi.jpg" /></p>
+                                <p style="text-align:center; font-style:italic">Ảnh minh họa</p>
+                                <p style="padding: 5px 0px;"><h5>3. Ai được ăn, uống</h5></p>
+                                <p>Giả sử trong một buổi tiệc họp mặt bạn bè bạn có tổ chức một bữa tiệc nhỏ, để cho không khí vui vẻ hơn bạn có thể sử dụng vòng quay để chỉ định ai là người được ăn hoặc phải uống ly bia gì đó.</p>
+                                <p style="font-style:italic">Ngoài ra còn rất nhiều cách ứng dụng khác, tùy vào nhu cầu mà mỗi người sẽ vận dụng vòng quay may mắn theo cách riêng của mình.</p>
+                            </div>-->
+              <!--<p style="color: #980000; margin-top:10px">
+                                XSPIN cung cấp phần mềm vòng quay may mắn online hoàn toàn miễn phí giúp các bạn có thể lựa chọn ngẫu nhiên các phần quà một cách công bằng.
+                                <br />Bạn có thể dùng bản chuyên nghiệp dành cho các sự kiện tri ân khách hàng tại: <a style="color: red !important;" id="vqcn" href="https://xspin.vn?utm=qsvngioi-thieu-phan-mem-vong-quay-may-man">Vòng quay chuyên nghiệp</a>
+                            </p>-->
+
+              <div style="text-align: left; padding: 10px 5%">
+                <div id="dvCongCuHayKhac">
+                  <div
+                    style="
+                      margin-top: 30px;
+                      border-radius: 3px;
+                      border: 1px solid #e9e9e9;
+                      padding: 5px 10px;
+                      background: #eeeeee;
+                      text-align: left;
+                    "
+                  ></div>
+                </div>
+              </div>
+
+              <div class="form-popup" id="dvTrungThuong" style="display: none">
+                <!--<div class="form-container" style="padding: 0px; padding-bottom: 20px; background-image: url(img/winner.jpg); background-size: cover;">-->
+                <div
+                  class="form-container"
+                  style="
+                    padding: 0px;
+                    padding-bottom: 20px;
+                    background: #fdfce9;
+                  "
+                >
+                  <div class="form-container-close" style="margin-right: 0px">
+                    <input
+                      class="form-close"
+                      value="X"
+                      type="button"
+                      onclick="closeTrungThuong()"
+                    />
+                  </div>
+
+                  <div
+                    id="dvKetQuaQuay"
+                    style="
+                      margin-top: 40px;
+                      font-weight: bold;
+                      font-size: 30px;
+                      color: #117411;
+                    "
+                  >
+                    <div style="font-size: 223px; color: #fc0000">
+                      <p>Bạn đã quay vào ôdeddddd</p>
+                    </div>
+                    <div>Linh Chi</div>
+                  </div>
+                  <div id="dvCongrats" class="congrats">
+                    <!--<h1>Congratulations!</h1>-->
+                    <div class="blob fa fa-star 0"></div>
+                    <div class="blob fa fa-star 1"></div>
+                    <div class="blob fa fa-star 2"></div>
+                    <div class="blob fa fa-star 3"></div>
+                    <div class="blob fa fa-star 4"></div>
+                    <div class="blob fa fa-star 5"></div>
+                    <div class="blob fa fa-star 6"></div>
+                    <div class="blob fa fa-star 7"></div>
+                    <div class="blob fa fa-star 8"></div>
+                    <div class="blob fa fa-star 9"></div>
+                    <div class="blob fa fa-star 10"></div>
+                    <div class="blob fa fa-star 11"></div>
+                    <div class="blob fa fa-star 12"></div>
+                    <div class="blob fa fa-star 13"></div>
+                    <div class="blob fa fa-star 14"></div>
+                    <div class="blob fa fa-star 15"></div>
+                    <div class="blob fa fa-star 16"></div>
+                    <div class="blob fa fa-star 17"></div>
+                    <div class="blob fa fa-star 18"></div>
+                    <div class="blob fa fa-star 19"></div>
+                    <div class="blob fa fa-star 20"></div>
+                    <div class="blob fa fa-star 21"></div>
+                    <div class="blob fa fa-star 22"></div>
+                    <div class="blob fa fa-star 23"></div>
+                    <div class="blob fa fa-star 24"></div>
+                    <div class="blob fa fa-star 25"></div>
+                    <div class="blob fa fa-star 26"></div>
+                    <div class="blob fa fa-star 27"></div>
+                    <div class="blob fa fa-star 28"></div>
+                    <div class="blob fa fa-star 29"></div>
+                    <div class="blob fa fa-star 30"></div>
+                    <div class="blob fa fa-star 31"></div>
+                    <div class="blob fa fa-star 32"></div>
+                    <div class="blob fa fa-star 33"></div>
+                    <div class="blob fa fa-star 34"></div>
+                    <div class="blob fa fa-star 35"></div>
+                    <div class="blob fa fa-star 36"></div>
+                    <div class="blob fa fa-star 37"></div>
+                    <div class="blob fa fa-star 38"></div>
+                    <div class="blob fa fa-star 39"></div>
+                    <div class="blob fa fa-star 40"></div>
+                    <div class="blob fa fa-star 41"></div>
+                    <div class="blob fa fa-star 42"></div>
+                    <div class="blob fa fa-star 43"></div>
+                    <div class="blob fa fa-star 44"></div>
+                    <div class="blob fa fa-star 45"></div>
+                    <div class="blob fa fa-star 46"></div>
+                    <div class="blob fa fa-star 47"></div>
+                    <div class="blob fa fa-star 48"></div>
+                    <div class="blob fa fa-star 49"></div>
+                    <div class="blob fa fa-star 50"></div>
+                    <div class="blob fa fa-star 51"></div>
+                    <div class="blob fa fa-star 52"></div>
+                    <div class="blob fa fa-star 53"></div>
+                    <div class="blob fa fa-star 54"></div>
+                    <div class="blob fa fa-star 55"></div>
+                    <div class="blob fa fa-star 56"></div>
+                    <div class="blob fa fa-star 57"></div>
+                    <div class="blob fa fa-star 58"></div>
+                    <div class="blob fa fa-star 59"></div>
+                    <div class="blob fa fa-star 60"></div>
+                    <div class="blob fa fa-star 61"></div>
+                    <div class="blob fa fa-star 62"></div>
+                    <div class="blob fa fa-star 63"></div>
+                    <div class="blob fa fa-star 64"></div>
+                    <div class="blob fa fa-star 65"></div>
+                    <div class="blob fa fa-star 66"></div>
+                    <div class="blob fa fa-star 67"></div>
+                    <div class="blob fa fa-star 68"></div>
+                    <div class="blob fa fa-star 69"></div>
+                    <div class="blob fa fa-star 70"></div>
+                    <div class="blob fa fa-star 71"></div>
+                    <div class="blob fa fa-star 72"></div>
+                    <div class="blob fa fa-star 73"></div>
+                    <div class="blob fa fa-star 74"></div>
+                    <div class="blob fa fa-star 75"></div>
+                    <div class="blob fa fa-star 76"></div>
+                    <div class="blob fa fa-star 77"></div>
+                    <div class="blob fa fa-star 78"></div>
+                    <div class="blob fa fa-star 79"></div>
+                    <div class="blob fa fa-star 80"></div>
+                    <div class="blob fa fa-star 81"></div>
+                    <div class="blob fa fa-star 82"></div>
+                    <div class="blob fa fa-star 83"></div>
+                    <div class="blob fa fa-star 84"></div>
+                    <div class="blob fa fa-star 85"></div>
+                    <div class="blob fa fa-star 86"></div>
+                    <div class="blob fa fa-star 87"></div>
+                    <div class="blob fa fa-star 88"></div>
+                    <div class="blob fa fa-star 89"></div>
+                    <div class="blob fa fa-star 90"></div>
+                    <div class="blob fa fa-star 91"></div>
+                    <div class="blob fa fa-star 92"></div>
+                    <div class="blob fa fa-star 93"></div>
+                    <div class="blob fa fa-star 94"></div>
+                    <div class="blob fa fa-star 95"></div>
+                    <div class="blob fa fa-star 96"></div>
+                    <div class="blob fa fa-star 97"></div>
+                    <div class="blob fa fa-star 98"></div>
+                    <div class="blob fa fa-star 99"></div>
+                    <div class="blob fa fa-star 100"></div>
+                    <div class="blob fa fa-star 101"></div>
+                    <div class="blob fa fa-star 102"></div>
+                    <div class="blob fa fa-star 103"></div>
+                    <div class="blob fa fa-star 104"></div>
+                    <div class="blob fa fa-star 105"></div>
+                    <div class="blob fa fa-star 106"></div>
+                    <div class="blob fa fa-star 107"></div>
+                    <div class="blob fa fa-star 108"></div>
+                    <div class="blob fa fa-star 109"></div>
+                    <div class="blob fa fa-star 110"></div>
+                    <div class="blob fa fa-star 111"></div>
+                    <div class="blob fa fa-star 112"></div>
+                    <div class="blob fa fa-star 113"></div>
+                    <div class="blob fa fa-star 114"></div>
+                    <div class="blob fa fa-star 115"></div>
+                    <div class="blob fa fa-star 116"></div>
+                    <div class="blob fa fa-star 117"></div>
+                    <div class="blob fa fa-star 118"></div>
+                    <div class="blob fa fa-star 119"></div>
+                    <div class="blob fa fa-star 120"></div>
+                    <div class="blob fa fa-star 121"></div>
+                    <div class="blob fa fa-star 122"></div>
+                    <div class="blob fa fa-star 123"></div>
+                    <div class="blob fa fa-star 124"></div>
+                    <div class="blob fa fa-star 125"></div>
+                    <div class="blob fa fa-star 126"></div>
+                    <div class="blob fa fa-star 127"></div>
+                    <div class="blob fa fa-star 128"></div>
+                    <div class="blob fa fa-star 129"></div>
+                    <div class="blob fa fa-star 130"></div>
+                    <div class="blob fa fa-star 131"></div>
+                    <div class="blob fa fa-star 132"></div>
+                    <div class="blob fa fa-star 133"></div>
+                    <div class="blob fa fa-star 134"></div>
+                    <div class="blob fa fa-star 135"></div>
+                    <div class="blob fa fa-star 136"></div>
+                    <div class="blob fa fa-star 137"></div>
+                    <div class="blob fa fa-star 138"></div>
+                    <div class="blob fa fa-star 139"></div>
+                    <div class="blob fa fa-star 140"></div>
+                    <div class="blob fa fa-star 141"></div>
+                    <div class="blob fa fa-star 142"></div>
+                    <div class="blob fa fa-star 143"></div>
+                    <div class="blob fa fa-star 144"></div>
+                    <div class="blob fa fa-star 145"></div>
+                    <div class="blob fa fa-star 146"></div>
+                    <div class="blob fa fa-star 147"></div>
+                    <div class="blob fa fa-star 148"></div>
+                    <div class="blob fa fa-star 149"></div>
+                    <div class="blob fa fa-star 150"></div>
+                    <div class="blob fa fa-star 151"></div>
+                    <div class="blob fa fa-star 152"></div>
+                    <div class="blob fa fa-star 153"></div>
+                    <div class="blob fa fa-star 154"></div>
+                    <div class="blob fa fa-star 155"></div>
+                    <div class="blob fa fa-star 156"></div>
+                    <div class="blob fa fa-star 157"></div>
+                    <div class="blob fa fa-star 158"></div>
+                    <div class="blob fa fa-star 159"></div>
+                    <div class="blob fa fa-star 160"></div>
+                    <div class="blob fa fa-star 161"></div>
+                    <div class="blob fa fa-star 162"></div>
+                    <div class="blob fa fa-star 163"></div>
+                    <div class="blob fa fa-star 164"></div>
+                    <div class="blob fa fa-star 165"></div>
+                    <div class="blob fa fa-star 166"></div>
+                    <div class="blob fa fa-star 167"></div>
+                    <div class="blob fa fa-star 168"></div>
+                    <div class="blob fa fa-star 169"></div>
+                    <div class="blob fa fa-star 170"></div>
+                    <div class="blob fa fa-star 171"></div>
+                    <div class="blob fa fa-star 172"></div>
+                    <div class="blob fa fa-star 173"></div>
+                    <div class="blob fa fa-star 174"></div>
+                    <div class="blob fa fa-star 175"></div>
+                    <div class="blob fa fa-star 176"></div>
+                    <div class="blob fa fa-star 177"></div>
+                    <div class="blob fa fa-star 178"></div>
+                    <div class="blob fa fa-star 179"></div>
+                    <div class="blob fa fa-star 180"></div>
+                    <div class="blob fa fa-star 181"></div>
+                    <div class="blob fa fa-star 182"></div>
+                    <div class="blob fa fa-star 183"></div>
+                    <div class="blob fa fa-star 184"></div>
+                    <div class="blob fa fa-star 185"></div>
+                    <div class="blob fa fa-star 186"></div>
+                    <div class="blob fa fa-star 187"></div>
+                    <div class="blob fa fa-star 188"></div>
+                    <div class="blob fa fa-star 189"></div>
+                    <div class="blob fa fa-star 190"></div>
+                    <div class="blob fa fa-star 191"></div>
+                    <div class="blob fa fa-star 192"></div>
+                    <div class="blob fa fa-star 193"></div>
+                    <div class="blob fa fa-star 194"></div>
+                    <div class="blob fa fa-star 195"></div>
+                    <div class="blob fa fa-star 196"></div>
+                    <div class="blob fa fa-star 197"></div>
+                    <div class="blob fa fa-star 198"></div>
+                    <div class="blob fa fa-star 199"></div>
+                  </div>
+                </div>
+              </div>
+
+              <script>
+                // Create new wheel object specifying the parameters at creation time.
+
+                function CapNhatVongQuay() {
+                  var clButton = document.getElementById("cl");
+
+                  // Gọi sự kiện click của nút "cl"
+                  clButton.click();
+                  LoadVongQuay();
+                  setCookie(
+                    "PhanQuay",
+                    $("#txtPhanQuay").val().replaceAll("\n", "~"),
+                    30
+                  );
+                  //alert($('#txtPhanQuay').val().replaceAll("\n","~"));
+
+                  //var sPhanQuay = $('#txtPhanQuay').val().replace("\N", "\n");
+                  //var arrPhanQuay = sPhanQuay.split('\n');
+                  //var sPhanQuay1 = "";
+                  //for (var i = 0; i < arrPhanQuay.length; i++) {
+                  //    //alert(arrPhanQuay[i].trim());
+                  //    if (arrPhanQuay[i].trim() != "") {
+                  //        sPhanQuay1 += arrPhanQuay[i].trim() + "~~~~~-----";
+                  //    }
+                  //}
+                  //sPhanQuay1 += "END";
+                  //alert($('#txtPhanQuay').val().replaceAll("\n", "-"));
+                  //setCookie("vqmmfree2", $('#txtPhanQuay').val().replaceAll("\n", "~~~~~-----"), 30);
+                }
+
+                let audio = new Audio("/Plugins/VQMM_V1/QuaySo1.m4a");
+                function soundOn() {
+                  setTimeout(() => {
+                    audio.play();
+                  }, 0);
+                }
+
+                function iOS() {
+                  return (
+                    [
+                      "iPad Simulator",
+                      "iPhone Simulator",
+                      "iPod Simulator",
+                      "iPad",
+                      "iPhone",
+                      "iPod",
+                    ].includes(navigator.platform) ||
+                    // iPad on iOS 13 detection
+                    (navigator.userAgent.includes("Mac") &&
+                      "ontouchend" in document)
+                  );
+                }
+
+                document.getElementById("spin").onclick = function () {
+                  //if (iOS() == true){
+                  //    soundOn()
+                  //}
+                  //else{
+                  //    soundOn()
+                  //}
+                  soundOn();
+                };
+
+                // Loads the tick audio sound in to an audio object.
+
+                // -------------------------------------------------------
+                // Function to handle the onClick on the power buttons.
+                // -------------------------------------------------------
+                function powerSelected(powerLevel) {
+                  // Ensure that power can't be changed while wheel is spinning.
+                  if (wheelSpinning == false) {
+                    // Reset all to grey incase this is not the first time the user has selected the power.
+                    //document.getElementById('pw1').className = "";
+                    //document.getElementById('pw2').className = "";
+                    //document.getElementById('pw3').className = "";
+
+                    // Now light up all cells below-and-including the one selected by changing the class.
+                    //if (powerLevel >= 1) {
+                    //    document.getElementById('pw1').className = "pw1";
+                    //}
+
+                    //if (powerLevel >= 2) {
+                    //    document.getElementById('pw2').className = "pw2";
+                    //}
+
+                    //if (powerLevel >= 3) {
+                    //    document.getElementById('pw3').className = "pw3";
+                    //}
+
+                    // Set wheelPower var used when spin button is clicked.
+                    wheelPower = powerLevel;
+
+                    // Light up the spin button by changing it's source image and adding a clickable class to it.
+                    //document.getElementById('spin_button').src = "spin_on.png";
+                    //document.getElementById('spin_button').className = "clickable";
+                  }
+                }
+
+                // -------------------------------------------------------
+                // Click handler for spin button.
+                // -------------------------------------------------------
+                function startSpin() {
+                  playSoundClick();
+                  // Ensure that spinning can't be clicked again while already running.
+                  if (wheelSpinning == false) {
+                    $("#btQuayNgay").css("display", "none");
+
+                    // Based on the power level selected adjust the number of spins for the wheel, the more times is has
+                    // to rotate with the duration of the animation the quicker the wheel spins.
+
+                    /*if (wheelPower == 1) {
+                                            theWheel.animation.spins = 3;
+                                        } else if (wheelPower == 2) {
+                                            theWheel.animation.spins = 6;
+                                        } else if (wheelPower == 3) {
+                                            theWheel.animation.spins = 10;
+                                        }*/
+                    //theWheel.animation.spins = 50;
+
+                    // Disable the spin button so can't click again while wheel is spinning.
+                    //document.getElementById('spin_button').src = "spin_off.png";
+                    //document.getElementById('spin_button').className = "";
+
+                    // Begin the spin animation by calling startAnimation on the wheel object.
+                    theWheel.startAnimation();
+
+                    // Set to true so that power can't be changed and spin button re-enabled during
+                    // the current animation. The user will have to reset before spinning again.
+                    wheelSpinning = true;
+                  }
+                }
+
+                // -------------------------------------------------------
+                // Function for reset button.
+                // -------------------------------------------------------
+                function resetWheel() {
+                  theWheel.stopAnimation(false); // Stop the animation, false as param so does not call callback function.
+                  theWheel.rotationAngle = 0; // Re-set the wheel angle to 0 degrees.
+                  theWheel.draw(); // Call draw to render changes to the wheel.
+
+                  wheelSpinning = false; // Reset to false to power buttons and spin can be clicked again.
+                }
+
+                // -------------------------------------------------------
+                // Called when the spin animation has finished by the callback feature of the wheel because I specified callback in the parameters.
+                // -------------------------------------------------------
+                function alertPrize(indicatedSegment) {
+                  $("#btQuayNgay").css("display", "block");
+                  // Just alert to the user what happened.
+                  // In a real project probably want to do something more interesting than this with the result.
+                  //alert("Bạn đã quay trúng ô \"" + indicatedSegment.text + "\"");
+                  openTrungThuong(indicatedSegment.text);
+                  //resetWheel();
+                }
+              </script>
+            </div>
+          </div>
+        </section>
+        <!-- End Services Section -->
+      </main>
+    </div>
+    
+    <!--<script src="assets/js/bootstrap.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+    <script src="Plugins/Congrats/script.js"></script>
+    <ins
+      class="adsbygoogle adsbygoogle-noablate"
+      data-adsbygoogle-status="done"
+      style="display: none !important"
+      data-ad-status="unfilled"
+      ><div
+        id="aswift_0_host"
+        style="
+          border: none;
+          height: 0px;
+          width: 0px;
+          margin: 0px;
+          padding: 0px;
+          position: relative;
+          visibility: visible;
+          background-color: transparent;
+          display: inline-block;
+        "
+      >
+        <iframe
+          id="aswift_0"
+          name="aswift_0"
+          browsingtopics="true"
+          style="
+            left: 0;
+            position: absolute;
+            top: 0;
+            border: 0;
+            width: undefinedpx;
+            height: undefinedpx;
+          "
+          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+          frameborder="0"
+          marginwidth="0"
+          marginheight="0"
+          vspace="0"
+          hspace="0"
+          allowtransparency="true"
+          scrolling="no"
+          allow="attribution-reporting; run-ad-auction"
+          src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1206708643224072&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=6&amp;lmt=1725850229&amp;plat=1%3A1024%2C2%3A1024%2C3%3A2097152%2C4%3A2097152%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fquayso.vn%2Fvongquay.html&amp;pra=5&amp;wgl=1&amp;aihb=0&amp;asro=0&amp;ailel=1~2~4~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&amp;aiael=1~2~3~4~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&amp;aicel=33~38&amp;aifxl=29_18~30_19&amp;aiixl=29_5~30_6&amp;aiapm=0.15&amp;aiapmi=0.33938&amp;aiact=0.6&amp;ailct=0.6&amp;uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTM0LjAuNjk5OC4xNzgiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxMzQuMC42OTk4LjE3OCJdLFsiTm90OkEtQnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjEzNC4wLjY5OTguMTc4Il1dLDBd&amp;dt=1743309318437&amp;bpp=5&amp;bdt=1620&amp;idt=955&amp;shv=r20250327&amp;mjsv=m202503270101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=3706301107544&amp;frm=20&amp;pv=2&amp;u_tz=420&amp;u_his=12&amp;u_h=768&amp;u_w=1366&amp;u_ah=720&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1351&amp;bih=633&amp;scr_x=0&amp;scr_y=0&amp;eid=95344791%2C95355310%2C95356499%2C95356504%2C31091375%2C95355300%2C95356787%2C95356929&amp;oid=2&amp;pvsid=1983930014753879&amp;tmod=2145577020&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C720%2C1366%2C633&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=995"
+          data-google-container-id="a!1"
+          tabindex="0"
+          title="Advertisement"
+          aria-label="Advertisement"
+          data-load-complete="true"
+        ></iframe></div
+    ></ins>
+
+    <div
+      class="jso-cursor-trail-wrapper"
+      style="
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        pointer-events: none;
+        z-index: 9999;
+      "
+    >
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e6d65e"
+            d="M168 226.8C128.4 226.8 88.8 246.8 49.2 286.8 89.2 247.2 109.2 207.6 109.2 168 109.2 128.4 89.2 88.8 49.2 49.2 88.8 89.2 128.4 109.2 168 109.2 207.6 109.2 247.2 89.2 286.8 49.2 246.8 88.8 226.8 128.4 226.8 168 226.8 207.6 246.8 247.2 286.8 286.8 247.2 246.8 207.6 226.8 168 226.8Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffed8a"
+            d="M168 235.2C128.4 235.2 88.8 252.4 49.2 286.8 83.6 247.2 100.8 207.6 100.8 168 100.8 128.4 83.6 88.8 49.2 49.2 88.8 83.6 128.4 100.8 168 100.8 207.6 100.8 247.2 83.6 286.8 49.2 252.4 88.8 235.2 128.4 235.2 168 235.2 207.6 252.4 247.2 286.8 286.8 247.2 252.4 207.6 235.2 168 235.2Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <polygon
+            fill="#bfb177"
+            points="168 252 49.2 286.8 84 168 49.2 49.2 168 84 286.8 49.2 252 168 286.8 286.8"
+            transform="rotate(45 168 168)"
+          ></polygon>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <polygon
+            fill="#bfb177"
+            points="168 252 49.2 286.8 84 168 49.2 49.2 168 84 286.8 49.2 252 168 286.8 286.8"
+            transform="rotate(45 168 168)"
+          ></polygon>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 268 268"
+        >
+          <path
+            fill="#f8ffc4"
+            d="M134.3 241C102.7 241 71.2 236.9 39.7 228.6 31.4 197.1 27.3 165.5 27.3 134 27.3 102.5 31.4 70.9 39.7 39.4 71.2 31.1 102.7 27 134.3 27 165.8 27 197.3 31.1 228.8 39.4 237.1 70.9 241.3 102.5 241.3 134 241.3 165.5 237.1 197.1 228.8 228.6 197.3 236.9 165.8 241 134.3 241Z"
+            transform="rotate(45 134.25 134)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e3d881"
+            d="M168 218.4C128.4 218.4 88.8 241.2 49.2 286.8 94.8 247.2 117.6 207.6 117.6 168 117.6 128.4 94.8 88.8 49.2 49.2 88.8 94.8 128.4 117.6 168 117.6 207.6 117.6 247.2 94.8 286.8 49.2 241.2 88.8 218.4 128.4 218.4 168 218.4 207.6 241.2 247.2 286.8 286.8 247.2 241.2 207.6 218.4 168 218.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e3d881"
+            d="M168 218.4C128.4 218.4 88.8 241.2 49.2 286.8 94.8 247.2 117.6 207.6 117.6 168 117.6 128.4 94.8 88.8 49.2 49.2 88.8 94.8 128.4 117.6 168 117.6 207.6 117.6 247.2 94.8 286.8 49.2 241.2 88.8 218.4 128.4 218.4 168 218.4 207.6 241.2 247.2 286.8 286.8 247.2 241.2 207.6 218.4 168 218.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e6d65e"
+            d="M168 226.8C128.4 226.8 88.8 246.8 49.2 286.8 89.2 247.2 109.2 207.6 109.2 168 109.2 128.4 89.2 88.8 49.2 49.2 88.8 89.2 128.4 109.2 168 109.2 207.6 109.2 247.2 89.2 286.8 49.2 246.8 88.8 226.8 128.4 226.8 168 226.8 207.6 246.8 247.2 286.8 286.8 247.2 246.8 207.6 226.8 168 226.8Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 142 142"
+        >
+          <circle cx="71" cy="71" r="71" fill="#dbbc74"></circle>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffcf5f"
+            d="M168 243.6C128.4 243.6 88.8 258 49.2 286.8 78 247.2 92.4 207.6 92.4 168 92.4 128.4 78 88.8 49.2 49.2 88.8 78 128.4 92.4 168 92.4 207.6 92.4 247.2 78 286.8 49.2 258 88.8 243.6 128.4 243.6 168 243.6 207.6 258 247.2 286.8 286.8 247.2 258 207.6 243.6 168 243.6Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 142 142"
+        >
+          <circle cx="71" cy="71" r="71" fill="#dbbc74"></circle>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffed8a"
+            d="M168 235.2C128.4 235.2 88.8 252.4 49.2 286.8 83.6 247.2 100.8 207.6 100.8 168 100.8 128.4 83.6 88.8 49.2 49.2 88.8 83.6 128.4 100.8 168 100.8 207.6 100.8 247.2 83.6 286.8 49.2 252.4 88.8 235.2 128.4 235.2 168 235.2 207.6 252.4 247.2 286.8 286.8 247.2 252.4 207.6 235.2 168 235.2Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <polygon
+            fill="#bfb177"
+            points="168 252 49.2 286.8 84 168 49.2 49.2 168 84 286.8 49.2 252 168 286.8 286.8"
+            transform="rotate(45 168 168)"
+          ></polygon>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 268 268"
+        >
+          <path
+            fill="#f8ffc4"
+            d="M134.3 241C102.7 241 71.2 236.9 39.7 228.6 31.4 197.1 27.3 165.5 27.3 134 27.3 102.5 31.4 70.9 39.7 39.4 71.2 31.1 102.7 27 134.3 27 165.8 27 197.3 31.1 228.8 39.4 237.1 70.9 241.3 102.5 241.3 134 241.3 165.5 237.1 197.1 228.8 228.6 197.3 236.9 165.8 241 134.3 241Z"
+            transform="rotate(45 134.25 134)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 142 142"
+        >
+          <circle cx="71" cy="71" r="71" fill="#dbbc74"></circle>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <polygon
+            fill="#bfb177"
+            points="168 252 49.2 286.8 84 168 49.2 49.2 168 84 286.8 49.2 252 168 286.8 286.8"
+            transform="rotate(45 168 168)"
+          ></polygon>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffcf5f"
+            d="M168 243.6C128.4 243.6 88.8 258 49.2 286.8 78 247.2 92.4 207.6 92.4 168 92.4 128.4 78 88.8 49.2 49.2 88.8 78 128.4 92.4 168 92.4 207.6 92.4 247.2 78 286.8 49.2 258 88.8 243.6 128.4 243.6 168 243.6 207.6 258 247.2 286.8 286.8 247.2 258 207.6 243.6 168 243.6Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 585px;
+          top: 222px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 586px;
+          top: 228px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 142 142"
+        >
+          <circle cx="71" cy="71" r="71" fill="#dbbc74"></circle>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 609px;
+          top: 235px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 693px;
+          top: 252px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffcf5f"
+            d="M168 243.6C128.4 243.6 88.8 258 49.2 286.8 78 247.2 92.4 207.6 92.4 168 92.4 128.4 78 88.8 49.2 49.2 88.8 78 128.4 92.4 168 92.4 207.6 92.4 247.2 78 286.8 49.2 258 88.8 243.6 128.4 243.6 168 243.6 207.6 258 247.2 286.8 286.8 247.2 258 207.6 243.6 168 243.6Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 798px;
+          top: 271px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 876px;
+          top: 278px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e6d65e"
+            d="M168 226.8C128.4 226.8 88.8 246.8 49.2 286.8 89.2 247.2 109.2 207.6 109.2 168 109.2 128.4 89.2 88.8 49.2 49.2 88.8 89.2 128.4 109.2 168 109.2 207.6 109.2 247.2 89.2 286.8 49.2 246.8 88.8 226.8 128.4 226.8 168 226.8 207.6 246.8 247.2 286.8 286.8 247.2 246.8 207.6 226.8 168 226.8Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 894px;
+          top: 282px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffed8a"
+            d="M168 235.2C128.4 235.2 88.8 252.4 49.2 286.8 83.6 247.2 100.8 207.6 100.8 168 100.8 128.4 83.6 88.8 49.2 49.2 88.8 83.6 128.4 100.8 168 100.8 207.6 100.8 247.2 83.6 286.8 49.2 252.4 88.8 235.2 128.4 235.2 168 235.2 207.6 252.4 247.2 286.8 286.8 247.2 252.4 207.6 235.2 168 235.2Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 886px;
+          top: 286px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 881px;
+          top: 287px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <polygon
+            fill="#bfb177"
+            points="168 252 49.2 286.8 84 168 49.2 49.2 168 84 286.8 49.2 252 168 286.8 286.8"
+            transform="rotate(45 168 168)"
+          ></polygon>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 871px;
+          top: 288px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 142 142"
+        >
+          <circle cx="71" cy="71" r="71" fill="#dbbc74"></circle>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 860px;
+          top: 291px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="12"
+          height="12"
+          viewBox="0 0 239 240"
+        >
+          <path
+            fill="#e6cb05"
+            d="M119.5 191.7C91.3 191.7 63.2 196 35 204.5 43.5 176.3 47.8 148.2 47.8 120 47.8 91.8 43.5 63.7 35 35.5 63.2 44 91.3 48.3 119.5 48.3 147.7 48.3 175.8 44 204 35.5 195.5 63.7 191.2 91.8 191.2 120 191.2 148.2 195.5 176.3 204 204.5 175.8 196 147.7 191.7 119.5 191.7Z"
+            transform="rotate(45 119.501 120)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 842px;
+          top: 293px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 142 142"
+        >
+          <circle cx="71" cy="71" r="71" fill="#dbbc74"></circle>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 833px;
+          top: 293px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffcf5f"
+            d="M168 243.6C128.4 243.6 88.8 258 49.2 286.8 78 247.2 92.4 207.6 92.4 168 92.4 128.4 78 88.8 49.2 49.2 88.8 78 128.4 92.4 168 92.4 207.6 92.4 247.2 78 286.8 49.2 258 88.8 243.6 128.4 243.6 168 243.6 207.6 258 247.2 286.8 286.8 247.2 258 207.6 243.6 168 243.6Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 806px;
+          top: 292px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 722px;
+          top: 292px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffcf5f"
+            d="M168 243.6C128.4 243.6 88.8 258 49.2 286.8 78 247.2 92.4 207.6 92.4 168 92.4 128.4 78 88.8 49.2 49.2 88.8 78 128.4 92.4 168 92.4 207.6 92.4 247.2 78 286.8 49.2 258 88.8 243.6 128.4 243.6 168 243.6 207.6 258 247.2 286.8 286.8 247.2 258 207.6 243.6 168 243.6Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 637px;
+          top: 297px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e6d65e"
+            d="M168 226.8C128.4 226.8 88.8 246.8 49.2 286.8 89.2 247.2 109.2 207.6 109.2 168 109.2 128.4 89.2 88.8 49.2 49.2 88.8 89.2 128.4 109.2 168 109.2 207.6 109.2 247.2 89.2 286.8 49.2 246.8 88.8 226.8 128.4 226.8 168 226.8 207.6 246.8 247.2 286.8 286.8 247.2 246.8 207.6 226.8 168 226.8Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 609px;
+          top: 306px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e3d881"
+            d="M168 218.4C128.4 218.4 88.8 241.2 49.2 286.8 94.8 247.2 117.6 207.6 117.6 168 117.6 128.4 94.8 88.8 49.2 49.2 88.8 94.8 128.4 117.6 168 117.6 207.6 117.6 247.2 94.8 286.8 49.2 241.2 88.8 218.4 128.4 218.4 168 218.4 207.6 241.2 247.2 286.8 286.8 247.2 241.2 207.6 218.4 168 218.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 608px;
+          top: 310px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e6d65e"
+            d="M168 226.8C128.4 226.8 88.8 246.8 49.2 286.8 89.2 247.2 109.2 207.6 109.2 168 109.2 128.4 89.2 88.8 49.2 49.2 88.8 89.2 128.4 109.2 168 109.2 207.6 109.2 247.2 89.2 286.8 49.2 246.8 88.8 226.8 128.4 226.8 168 226.8 207.6 246.8 247.2 286.8 286.8 247.2 246.8 207.6 226.8 168 226.8Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 605px;
+          top: 313px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <polygon
+            fill="#bfb177"
+            points="168 252 49.2 286.8 84 168 49.2 49.2 168 84 286.8 49.2 252 168 286.8 286.8"
+            transform="rotate(45 168 168)"
+          ></polygon>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 601px;
+          top: 318px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 268 268"
+        >
+          <path
+            fill="#f8ffc4"
+            d="M134.3 241C102.7 241 71.2 236.9 39.7 228.6 31.4 197.1 27.3 165.5 27.3 134 27.3 102.5 31.4 70.9 39.7 39.4 71.2 31.1 102.7 27 134.3 27 165.8 27 197.3 31.1 228.8 39.4 237.1 70.9 241.3 102.5 241.3 134 241.3 165.5 237.1 197.1 228.8 228.6 197.3 236.9 165.8 241 134.3 241Z"
+            transform="rotate(45 134.25 134)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 599px;
+          top: 323px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffe940"
+            d="M168 260.4C128.4 260.4 88.8 269.2 49.2 286.8 66.8 247.2 75.6 207.6 75.6 168 75.6 128.4 66.8 88.8 49.2 49.2 88.8 66.8 128.4 75.6 168 75.6 207.6 75.6 247.2 66.8 286.8 49.2 269.2 88.8 260.4 128.4 260.4 168 260.4 207.6 269.2 247.2 286.8 286.8 247.2 269.2 207.6 260.4 168 260.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 540px;
+          top: 93px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffcf5f"
+            d="M168 243.6C128.4 243.6 88.8 258 49.2 286.8 78 247.2 92.4 207.6 92.4 168 92.4 128.4 78 88.8 49.2 49.2 88.8 78 128.4 92.4 168 92.4 207.6 92.4 247.2 78 286.8 49.2 258 88.8 243.6 128.4 243.6 168 243.6 207.6 258 247.2 286.8 286.8 247.2 258 207.6 243.6 168 243.6Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 538px;
+          top: 101px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 268 268"
+        >
+          <path
+            fill="#f8ffc4"
+            d="M134.3 241C102.7 241 71.2 236.9 39.7 228.6 31.4 197.1 27.3 165.5 27.3 134 27.3 102.5 31.4 70.9 39.7 39.4 71.2 31.1 102.7 27 134.3 27 165.8 27 197.3 31.1 228.8 39.4 237.1 70.9 241.3 102.5 241.3 134 241.3 165.5 237.1 197.1 228.8 228.6 197.3 236.9 165.8 241 134.3 241Z"
+            transform="rotate(45 134.25 134)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 541px;
+          top: 109px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="35"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#ffed8a"
+            d="M168 235.2C128.4 235.2 88.8 252.4 49.2 286.8 83.6 247.2 100.8 207.6 100.8 168 100.8 128.4 83.6 88.8 49.2 49.2 88.8 83.6 128.4 100.8 168 100.8 207.6 100.8 247.2 83.6 286.8 49.2 252.4 88.8 235.2 128.4 235.2 168 235.2 207.6 252.4 247.2 286.8 286.8 247.2 252.4 207.6 235.2 168 235.2Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="jso-cursor-trail-shape"
+        style="
+          position: absolute;
+          left: 641px;
+          top: 366px;
+          pointer-events: none;
+          display: none;
+        "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          viewBox="0 0 336 336"
+        >
+          <path
+            fill="#e3d881"
+            d="M168 218.4C128.4 218.4 88.8 241.2 49.2 286.8 94.8 247.2 117.6 207.6 117.6 168 117.6 128.4 94.8 88.8 49.2 49.2 88.8 94.8 128.4 117.6 168 117.6 207.6 117.6 247.2 94.8 286.8 49.2 241.2 88.8 218.4 128.4 218.4 168 218.4 207.6 241.2 247.2 286.8 286.8 247.2 241.2 207.6 218.4 168 218.4Z"
+            transform="rotate(45 168 168)"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <iframe
+      src="https://www.google.com/recaptcha/api2/aframe"
+      width="0"
+      height="0"
+      style="display: none"
+    ></iframe>
+    <div id="welcome-popup">
+      <div id="popup-content">
+        <p>Xin chào! Chào mừng bạn đã đến với Website của <Tr><strong>Trần Hưng Tài</strong></Tr></p>
+        <button onclick="closePopup()">Đóng</button>
+      </div>
+    </div>
+    <footer style="align-items: center; text-align: center;"> Trần Hưng Tài © 2024 | <a>1 dev thực thụ </a>
+    </footer>
+  </body>
+  <style>
+    #welcome-popup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #popup-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    #popup-content button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    function closePopup() {
+      document.getElementById("welcome-popup").style.display = "none";
+    }
+  </script>
+</html>

@@ -1,0 +1,344 @@
+@media (max-width: 1700px) {
+  .next-draw-area .element-left {
+    left: -125px;
+  }
+  .next-draw-area .element-right-top,
+  .next-draw-area .element-right-bottom {
+    opacity: 0.5;
+  }
+  .element-tablet {
+    top: 300px;
+  }
+  .element-tablet img {
+    height: 550px;
+  }
+  .element-phone {
+    top: 296px;
+    right: 461px;
+  }
+  .element-phone img {
+    height: 497px;
+  }
+  .payment-system-section .element-shape img {
+    height: 550px;
+  }
+  .payment-system-section .element-man-circle img {
+    height: 310px;
+  }
+}
+@media (max-width: 1500px) {
+  .banner-image {
+    right: 50px;
+  }
+  .element-tablet img {
+    height: 465px;
+  }
+  .element-phone {
+    top: 296px;
+    right: 391px;
+  }
+  .element-phone img {
+    height: 415px;
+  }
+}
+@media (max-width: 1400px) {
+  .next-draw-area .element-left {
+    left: -195px;
+  }
+  .payment-system-section .element-shape img {
+    height: 450px;
+  }
+  .payment-system-section .element-man-circle img {
+    height: 245px;
+  }
+  .payment-system-section .element-shape {
+    top: 95px;
+    right: -35px;
+  }
+  .payment-system-section .element-man-circle {
+    top: 200px;
+    right: -10px;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar {
+    padding-right: 10px;
+  }
+  .banner-image {
+    top: 175px;
+    right: 20px;
+    width: 465px;
+    height: 491px;
+  }
+  .banner-image div[class*="element"] {
+    display: none;
+  }
+  .banner-image .main-block {
+    display: block;
+  }
+  .banner-image .main-block img {
+    height: 475px;
+  }
+  .banner-content {
+    padding: 175px 0 205px 0;
+  }
+  .next-draw-area .element-left .main-thumb {
+    display: block;
+  }
+  .next-draw-area .element-left .main-thumb img {
+    height: 435px;
+  }
+  .next-draw-area .element-left div[class*="el"] {
+    display: none;
+  }
+  .next-draw-area .element-left {
+    top: 180px;
+    left: -65px;
+    width: 530px;
+    height: 440px;
+  }
+  .next-jackpot-wrapper .btn-area {
+    margin-top: 20px;
+  }
+  .element-phone {
+    display: none;
+  }
+  .payment-system-section .element-shape img {
+    height: 375px;
+  }
+  .payment-system-section .element-man-circle img {
+    height: 195px;
+  }
+  .payment-system-section .element-shape {
+    top: 155px;
+  }
+  .payment-system-section .element-man-circle {
+    top: 245px;
+  }
+  .about-thumb-area .thumb {
+    min-height: auto;
+  }
+  .about-thumb-area .thumb:nth-child(even) {
+    margin-top: -230px;
+  }
+}
+@media (max-width: 991px) {
+  .main-menu li a {
+    padding: 8px 15px;
+    display: block;
+  }
+  .main-menu > li + li > a {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .sub-menu {
+    position: initial;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+  }
+  .navbar-collapse {
+    padding: 20px 0;
+  }
+  li.menu_has_children:after {
+    top: 9px;
+  }
+  .banner-section::before {
+    -webkit-clip-path: ellipse(86% 75% at 38% 75%);
+    clip-path: ellipse(86% 75% at 38% 75%);
+  }
+  .banner-image {
+    display: none;
+  }
+  .main-section .element-right,
+  .features-area .element-left,
+  .next-draw-area .element-right-top,
+  .next-draw-area .element-right-bottom,
+  .step-section .element-left,
+  .next-draw-area .element-left,
+  .work-with-app-section .element-shape,
+  .element-tablet,
+  .affiliate-section .element-shape,
+  .payment-system-section .element-shape,
+  .payment-system-section .element-man-circle,
+  .blog-section .element-shape {
+    display: none;
+  }
+  .features-item {
+    margin-bottom: 30px;
+  }
+  .features-area {
+    padding-top: 90px;
+    padding-bottom: 45px;
+  }
+  .next-draw-area {
+    padding-top: 0;
+    padding-bottom: 93px;
+  }
+  .next-draw-content {
+    text-align: center;
+  }
+  .step-section {
+    padding-top: 0;
+    padding-bottom: 68px;
+  }
+  .step-item {
+    margin-bottom: 30px;
+  }
+  .number-selected-area {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .selected-number-box {
+    margin: 30px auto 0 auto;
+  }
+  .padding-top-130 {
+    padding-top: 80px;
+  }
+  .padding-bottom-130 {
+    padding-bottom: 100px;
+  }
+  #lotteryTable {
+    width: 930px;
+  }
+  .lottery-result-table-area {
+    overflow: auto;
+  }
+  .affiliate-section .thumb {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .work-with-app-section,
+  .payment-system-section {
+    background-color: #f5f5f5;
+  }
+  .about-content {
+    margin-bottom: 30px;
+  }
+  .choose-us-section .row div[class*="col-lg-4"] .choose-item {
+    border: none;
+    padding: 0 15px 30px 15px;
+  }
+  .choose-us-section.padding-bottom-130 {
+    padding-bottom: 70px;
+  }
+  .sidebar {
+    margin-top: 50px;
+  }
+  .frm-group .row div[class*="col"] + div[class*="col"] {
+    margin-top: 15px;
+  }
+  .question-group {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-content {
+    padding: 130px 0 145px 0;
+  }
+  .nex-jackpot {
+    text-align: center;
+  }
+  .next-jackpot-wrapper {
+    justify-content: center !important;
+  }
+  .elements-wrapper {
+    display: none;
+  }
+  .faq-thumb,
+  .apply-thumb {
+    margin-top: 30px;
+  }
+  .inner-banner-img {
+    display: none;
+  }
+  .inner-page-wrapper {
+    padding: 95px 0;
+  }
+  .address-area {
+    margin-bottom: 30px;
+  }
+  #map {
+    height: 450px;
+  }
+  .login-form .frm-group a + a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .banner-section::before {
+    -webkit-clip-path: ellipse(130% 75% at 45% 75%);
+    clip-path: ellipse(130% 75% at 45% 75%);
+  }
+  .banner-content .top-title {
+    font-size: 22px;
+  }
+  .banner-content .title {
+    font-size: 42px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .banner-content .btn-area {
+    margin-top: 35px;
+  }
+  .subscribe-form button {
+    position: initial;
+    float: none;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .counter-item .counter {
+    font-size: 28px;
+  }
+  .counter-item .title {
+    font-size: 16px;
+  }
+  .subscribe-form-area .subscribe-form input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .single-comment-wrap .content {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+  }
+  .comment-list li ul li {
+    padding-left: 50px;
+  }
+  .card-header .btn-link {
+    font-size: 16px;
+  }
+  .error-content .error-head {
+    font-size: 140px;
+  }
+  .registration-block-inner,
+  .login-block-inner {
+    width: 100%;
+    max-width: 100%;
+  }
+  .registration-block,
+  .login-block {
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 400px) {
+  .select-number-area .btn-area button,
+  .number-selected-area .btn-area .cmn-btn {
+    margin-top: 15px;
+  }
+  .work-with-app-section .btn-area a + a {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 320px) {
+}
