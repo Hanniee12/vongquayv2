@@ -11,7 +11,7 @@
   position: relative;
   width: 450px;
   height: 450px;
-  background-image: url("./img/vq5.png");
+  background-image: url("../img/vq5.png");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   width: 30px;
   height: 58px;
   z-index: 2;
-  background-image: url("./img/moc.png");
+  background-image: url("../img/moc.png");
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
